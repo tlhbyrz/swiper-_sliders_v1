@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+html,
+body{
+    height: 100%;
+    overflow: auto;
+}
+
+body{
+    line-height: 1.5;
+    font-family: 'Poppins', sans-serif;
+    background: #EFF6FF;
+}
+
+.container{
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 100px 20px;
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+h3{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.swiper-section{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    padding: 50px 0;
+    cursor: pointer;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+
+.slide-8 {
+    width: 80%;
+}
+
+.slide-8:nth-child(2n) {
+    width: 60%;
+}
+
+.slide-8:nth-child(3n) {
+    width: 40%;
+}
+
+.slide-12{
+    width: 400px;
+    height: 400px;
+}
